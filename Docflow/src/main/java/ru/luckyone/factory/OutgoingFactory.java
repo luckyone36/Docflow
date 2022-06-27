@@ -1,7 +1,7 @@
 package ru.luckyone.factory;
 
 import java.io.IOException;
-import java.util.ArrayList;
+import java.util.List;
 
 import javax.xml.bind.JAXBException;
 
@@ -24,7 +24,7 @@ public class OutgoingFactory {
 	 * @throws IOException
 	 * @throws JAXBException
 	 */
-	public Outgoing createOutgoing(ArrayList<Document> docList) throws DocumentExistsException, IOException, JAXBException {
+	public Outgoing createOutgoing(List<Document> docList) throws DocumentExistsException, IOException, JAXBException {
 		Outgoing outgoing = new Outgoing();
 		outgoing.setUuid();
 		outgoing.setAuthor(PersonFactory.createPerson());

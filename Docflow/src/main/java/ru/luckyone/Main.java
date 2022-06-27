@@ -1,7 +1,7 @@
 package ru.luckyone;
 
 import java.io.IOException;
-import java.util.ArrayList;
+import java.util.List;
 
 import ru.luckyone.console.DocQuantity;
 import ru.luckyone.entities.documents.Document;
@@ -23,7 +23,7 @@ public class Main {
 		
 		// Создание списка документов
 		DocumentsGenerator generation = new DocumentsGenerator();
-		ArrayList<Document> docList = generation.generate(docQuantity);
+		List<Document> docList = generation.generate(docQuantity);
 		
 		// Сортировка документов по фамилии
 		docList.sort((o1, o2) -> o1.getAuthor().toString().compareTo(o2.getAuthor().toString()));

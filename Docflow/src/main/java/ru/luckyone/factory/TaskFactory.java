@@ -1,7 +1,7 @@
 package ru.luckyone.factory;
 
 import java.io.IOException;
-import java.util.ArrayList;
+import java.util.List;
 
 import javax.xml.bind.JAXBException;
 
@@ -24,7 +24,7 @@ public class TaskFactory {
 	 * @throws IOException
 	 * @throws JAXBException
 	 */
-	public Task createTask(ArrayList<Document> docList) throws DocumentExistsException, IOException, JAXBException { 
+	public Task createTask(List<Document> docList) throws DocumentExistsException, IOException, JAXBException { 
 		Task task = new Task();
 		task.setUuid();
 		task.setAuthor(PersonFactory.createPerson());

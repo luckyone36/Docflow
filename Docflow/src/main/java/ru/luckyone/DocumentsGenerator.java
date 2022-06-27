@@ -2,6 +2,7 @@ package ru.luckyone;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.List;
 
 import javax.xml.bind.JAXBException;
 
@@ -27,8 +28,8 @@ public class DocumentsGenerator {
 	 * @throws IOException
 	 * @throws JAXBException
 	 */
-	public ArrayList<Document> generate (int docQuantity) throws DocumentExistsException, IOException, JAXBException {
-		ArrayList<Document> docList = new ArrayList<Document>();
+	public List<Document> generate (int docQuantity) throws DocumentExistsException, IOException, JAXBException {
+		List<Document> docList = new ArrayList<Document>();
 		for (int i = 0; i < docQuantity; i++) {
 	    	if (i%3 == 0) {
 	    		TaskFactory docTask = new TaskFactory();

@@ -4,7 +4,6 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 import java.time.LocalDate;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
@@ -31,7 +30,7 @@ public class DocumentsPrinter {
 	 * @return
 	 * @throws Exception
 	 */
-	public ArrayList<Document> printer (ArrayList<Document> docList) throws Exception {
+	public List<Document> printer (List<Document> docList) throws Exception {
 
 		Stream<Document> stream = docList.stream(); // создаем поток из листа
 		//stream.forEach(s -> System.out.println(s)); // вывод содержимомго потока
