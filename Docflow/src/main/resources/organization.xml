@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elements>
+	<organizations>
+		<organization>
+			<fullOrgName>Сберегательный Банк Помидор</fullOrgName>
+			<orgName>СБП</orgName>
+			<orgBoss>Иванов Ярослав Максимович</orgBoss>
+			<depPhone>+7900 000 03 01</depPhone>
+		</organization>
+		<organization>
+			<fullOrgName>Судостроительная компания Аврора</fullOrgName>
+			<orgName>СКА</orgName>
+			<orgBoss>Григорьев Макар Никитевич</orgBoss>
+			<orgPhone>+7900 000 04 01</orgPhone>
+		</organization>
+	</organizations>
+</elements>

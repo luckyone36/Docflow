@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personDB>
+	<person>
+		<surName>Нестеров</surName>
+		<givName>Александр</givName>
+		<patronymic>Михайлович</patronymic>
+		<position>Глава департамента</position>
+		<dateOfBirth>03.08.1972</dateOfBirth>
+		<phoneNumber>+7900 001 01 66</phoneNumber>
+	</person>
+	<person>
+		<surName>Шестаков</surName>
+		<givName>Всеволод</givName>
+		<patronymic>Алексеевич</patronymic>
+		<position>Глава департамента</position>
+		<dateOfBirth>04.07.1968</dateOfBirth>
+		<phoneNumber>+7900 001 02 01</phoneNumber>
+	</person>
+	<person>
+		<surName>Иванов</surName>
+		<givName>Ярослав</givName>
+		<patronymic>Максимович</patronymic>
+		<position>Директор</position>
+		<dateOfBirth>22.09.1978</dateOfBirth>
+		<phoneNumber>+7900 002 02 01</phoneNumber>
+	</person>
+	<person>
+		<surName>Жуков</surName>
+		<givName>Никита</givName>
+		<patronymic>Тимофеевич</patronymic>
+		<position>Программист</position>
+		<dateOfBirth>02.09.1975</dateOfBirth>
+		<phoneNumber>+7900 002 02 45</phoneNumber>
+	</person>
+	<person>
+		<surName>Сергеев</surName>
+		<givName>Артём</givName>
+		<patronymic>Иванович</patronymic>
+		<position>Ведущий специалист</position>
+		<dateOfBirth>27.03.1980</dateOfBirth>
+		<phoneNumber>+7900 001 02 05</phoneNumber>
+	</person>
+	<person>
+		<surName>Лаврентьев</surName>
+		<givName>Алексей</givName>
+		<patronymic>Федосеевич</patronymic>
+		<position>Специалист</position>
+		<dateOfBirth>17.08.1973</dateOfBirth>
+		<phoneNumber>+7900 001 02 06</phoneNumber>
+	</person>
+	<person>
+		<surName>Григорьев</surName>
+		<givName>Макар</givName>
+		<patronymic>Никитевич</patronymic>
+		<position>Директор</position>
+		<dateOfBirth>14.09.1979</dateOfBirth>
+		<phoneNumber>+7900 001 02 23</phoneNumber>
+	</person>
+	<person>
+		<surName>Беспалов</surName>
+		<givName>Юлиан</givName>
+		<patronymic>Глебович</patronymic>
+		<position>Заведующий отделом</position>
+		<dateOfBirth>12.09.1973</dateOfBirth>
+		<phoneNumber>+7900 001 02 35</phoneNumber>
+	</person>
+</personDB>
+

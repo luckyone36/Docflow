@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elements>
+	<departments>
+		<department>
+			<fullDepName>Административный депортамент</fullDepName>
+			<depName>Администрация</depName>
+			<depBoss>Нестеров Александр Михайлович</depBoss>
+			<depPhone>+7900 000 01 01</depPhone>
+		</department>
+		<department>
+			<fullDepName>Юридический депортамент</fullDepName>
+			<depName>Юристы</depName>
+			<depBoss>Шестаков Всеволод Алексеевич</depBoss>
+			<depPhone>+7900 000 02 01</depPhone>
+		</department>
+	</departments>
+</elements>
