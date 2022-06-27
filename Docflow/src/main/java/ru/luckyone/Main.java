@@ -8,7 +8,7 @@ import ru.luckyone.entities.documents.Document;
 import ru.luckyone.exception.DocumentExistsException;
 import ru.luckyone.utils.DocumentsPrinter;
 /**
- *программа по документообороту
+ *Программа по документообороту
  * @author altair
  *
  */
