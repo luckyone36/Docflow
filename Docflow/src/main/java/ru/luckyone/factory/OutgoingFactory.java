@@ -8,7 +8,7 @@ import javax.xml.bind.JAXBException;
 import ru.luckyone.data.RandomString;
 import ru.luckyone.entities.documents.Document;
 import ru.luckyone.entities.documents.Outgoing;
-import ru.luckyone.entities.staff.CreatePerson;
+import ru.luckyone.entities.staff.PersonFactory;
 import ru.luckyone.exception.DocumentExistsException;
 /**
  * Фабрика создающая объекты класса Outgoing
@@ -27,7 +27,7 @@ public class OutgoingFactory {
 	public Outgoing createOutgoing(ArrayList<Document> docList) throws DocumentExistsException, IOException, JAXBException {
 		Outgoing outgoing = new Outgoing();
 		outgoing.setUuid();
-		outgoing.setAuthor(CreatePerson.createPerson());
+		outgoing.setAuthor(PersonFactory.createPerson());
 		outgoing.setName(RandomString.randomStringGeneration());
 		outgoing.setText(RandomString.randomStringGeneration());
 		outgoing.setRegDate();

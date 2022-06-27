@@ -8,7 +8,7 @@ import javax.xml.bind.JAXBException;
 import ru.luckyone.data.RandomString;
 import ru.luckyone.entities.documents.Document;
 import ru.luckyone.entities.documents.Task;
-import ru.luckyone.entities.staff.CreatePerson;
+import ru.luckyone.entities.staff.PersonFactory;
 import ru.luckyone.exception.DocumentExistsException;
 /**
  * Фабрика создающая объекты класса Task
@@ -27,16 +27,16 @@ public class TaskFactory {
 	public Task createTask(ArrayList<Document> docList) throws DocumentExistsException, IOException, JAXBException { 
 		Task task = new Task();
 		task.setUuid();
-		task.setAuthor(CreatePerson.createPerson());
+		task.setAuthor(PersonFactory.createPerson());
 		task.setName(RandomString.randomStringGeneration());
 		task.setText(RandomString.randomStringGeneration());
 		task.setRegDate();
 		task.setRegNum(1);
 		task.setDateTask(task.getRegDate());
 		task.setDateDoneTask(RandomString.randomStringGeneration());
-		task.setResponsiblePerson(CreatePerson.createPerson());
+		task.setResponsiblePerson(PersonFactory.createPerson());
 		task.setAttribute(RandomString.randomStringGeneration());
-		task.setControlPerson(CreatePerson.createPerson());
+		task.setControlPerson(PersonFactory.createPerson());
 		for (Document doc : docList) {
 			if (task.getUuid().toString().equals(doc.getUuid().toString())) {
 				throw new DocumentExistsException ("Документ с таким номером существует.");
