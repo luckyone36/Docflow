@@ -4,7 +4,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	  <modelVersion>4.0.0</modelVersion>
 	  <groupId>ru.luckyone</groupId>
-	  <artifactId>Document_03.2022</artifactId>
+	  <artifactId>Docflow</artifactId>
 	  <version>0.0.1-SNAPSHOT</version>
 	  
 	<properties>
@@ -16,9 +16,9 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.5</version>
                 <configuration>
-                    <release>17</release>
+                    <source>17</source>
+                    <target>17</target>
                 </configuration>
             </plugin>
             <plugin>
