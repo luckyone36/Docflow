@@ -11,7 +11,7 @@ import ru.luckyone.entities.documents.Document;
 import ru.luckyone.exception.DocumentExistsException;
 import ru.luckyone.utils.DocumentsPrinter;
 /**
- *Программа по документообороту 20-00
+ *Программа по документообороту
  *
  * @author altair
  *
